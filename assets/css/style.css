@@ -1,0 +1,147 @@
+body {
+    background-color: #f6f6f7;
+}
+
+.my-header {
+    background-color: #2d3136;
+    padding: 50px 0 50px 0;
+}
+
+.my-contact {
+    margin-top: 98px;
+    margin-bottom: 47px;
+}
+
+.my-button {
+    margin-top: 50px;
+}
+
+.my-footer {
+    background-color: #2a2d33;
+    height: 165px;
+    padding-top: 40px;
+}
+
+.my-required-symbol {
+    color: #be393b;
+}
+
+.my-label-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my-icon {
+    color: #d7d7d7;
+    display: none;
+}
+
+.control-label {
+    color: #d7d7d7;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-control {
+    background-color: #2d3136;
+    border-color: #4c4f53;
+    color: #d7d7d7;
+    font-size: 2.1rem;
+}
+
+.form-control:focus {
+    background-color: #2d3136;
+    border-color: #743538;
+    color: #d7d7d7;
+}
+
+.form-control-lg {
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+}
+
+textarea {
+    resize: none;
+    height: 286px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-lg {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .my-button {
+        width: 100%;
+    }
+}
+
+.comment-title {
+    color: #37414e;
+    font-size: 2.9rem;
+    font-weight: bold;
+    margin: 70px 0 70px 0;
+    letter-spacing: 0.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    border-width: 0;
+    margin-bottom: 75px;
+}
+
+.my-cards .card-header {
+    background-color: #4b596c;
+    color: #ffffff;
+    height: 96px;
+    font-size: 2.5rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 48px;
+}
+
+.my-cards div:nth-child(2n) .card-header {
+    background-color: #58ad52;
+}
+
+.card-body {
+    background-color: #e9eef3;
+    height: 370px;
+}
+
+.my-cards div:nth-child(2n) .card-body {
+    background-color: #deebde;
+}
+
+.card-title {
+    font-size: 2.4rem;
+    color: #6d737b;
+    font-weight: bold;
+    margin: 50px 0 70px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.my-cards div:nth-child(even) div > h4.card-title {
+    color: #58ad52;
+}
+
+.card-text {
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #767582;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2.4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.my-cards div:nth-child(even) div > p.card-text {
+    color: #768275;
+}
+
