@@ -25,15 +25,16 @@ CREATE TABLE IF NOT EXISTS `comments` (
   `email` varchar(50) DEFAULT NULL,
   `comment` text,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
--- Дамп данных таблицы honeyhunters.comments: ~3 rows (приблизительно)
+-- Дамп данных таблицы honeyhunters.comments: ~4 rows (приблизительно)
 DELETE FROM `comments`;
 /*!40000 ALTER TABLE `comments` DISABLE KEYS */;
 INSERT INTO `comments` (`id`, `name`, `email`, `comment`) VALUES
 	(1, 'Вася', 'vasya@mail.ru', 'Сообщение от Василия Пупкина.'),
 	(2, 'Маруся', 'marysia@mail.ru', 'Всем привет, я Маруся'),
-	(26, 'Еловский Игорь', 'user@ya.ru', 'Тестируем добавление комментария');
+	(3, 'Игорь', 'user@ya.ru', 'Тестируем добавление комментария'),
+	(4, 'Коля', 'kolya@mail.ru', 'Коля рулит');
 /*!40000 ALTER TABLE `comments` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

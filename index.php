@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row">
             <div class="col d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start justify-content-xl-start">
-                <a href="http://honey-hunters.ru"><img src="assets/img/logo.png" height="73" width="353" alt="logo"></a>
+                <a href="http://honey-hunters.ru"><img src="assets/img/logo.png" height="72" width="353" alt="logo"></a>
             </div>
         </div>
     </div>
@@ -24,7 +24,7 @@
     <div class="container my-contact">
         <div class="row">
             <div class="col text-center">
-                <img src="assets/img/contact.png" width="320" alt="contact">
+                <img src="assets/img/contact.png" height="320" width="320" alt="contact">
             </div>
         </div>
     </div>
@@ -39,7 +39,7 @@
                                 <label for="name" class="control-label">Имя <span class="my-required-symbol">*</span></label>
                                 <i class="fa fa-check fa-2x my-icon" aria-hidden="true"></i>
                             </div>
-                            <input name="name" type="text" maxlength="14" class="form-control form-control-lg" id="name"/>
+                            <input name="name" type="text" maxlength="8" class="form-control form-control-lg" id="name"/>
                         </div>
                         <div class="form-group">
                             <div class="my-label-wrapper">
@@ -94,10 +94,10 @@
             <div class="col-xs-12 col-sm-12 col-md-6">
                 <div class="d-flex justify-content-center justify-content-sm-center justify-content-md-end justify-content-lg-end justify-content-xl-end">
                     <a href="https://vk.com/id368675475" style="margin-right: 40px;">
-                        <img src="assets/img/vk.png" height="58" width="58" alt="vk">
+                        <img src="assets/img/vk.png" height="57" width="57" alt="vk">
                     </a>
                     <a href="https://www.facebook.com/honeyhuntersmanagement">
-                        <img src="assets/img/fb.png" height="58" width="58" alt="fb">
+                        <img src="assets/img/fb.png" height="57" width="57" alt="fb">
                     </a>
                 </div>
             </div>
